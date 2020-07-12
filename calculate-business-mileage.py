@@ -10,10 +10,8 @@ import csv
 import os
 import pandas as pd
 
-# location = "placeVisit"
 address = input("Enter address to search: ")
 miles = int(input("Enter distance in miles to address: "))
-
 
 
 print(f"Checking trips to '{address}'...")
